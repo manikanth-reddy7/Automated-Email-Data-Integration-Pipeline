@@ -142,3 +142,7 @@ email-etl-pipeline/
 
 ##OUTPUT
 <img width="1710" height="577" alt="image" src="https://github.com/user-attachments/assets/8c52e5ec-01bb-49d0-a71b-7eda052377c1" />
+<img width="1902" height="837" alt="Screenshot 2026-06-23 215603" src="https://github.com/user-attachments/assets/4601342b-5221-4237-8ab2-9aeecbca9646" />
+<img width="1900" height="832" alt="Screenshot 2026-06-23 215627" src="https://github.com/user-attachments/assets/6738ff0e-7b43-41dc-a903-ef15a67d6012" />
+
+

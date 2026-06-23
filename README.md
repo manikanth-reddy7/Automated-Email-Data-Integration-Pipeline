@@ -138,3 +138,7 @@ email-etl-pipeline/
 *   **Rule 6 (Timestamp)**: standardizes timestamp using `pd.to_datetime`. Invalid timestamps dump the row to the `invalid_emails` collection.
 *   **Rule 7 (Derived Field)**: `body_length` calculates character count.
 *   **Rule 8 & 9 (Standardizing)**: `status` defaults to `unread` if empty or invalid. `source` is standardized to lowercase.
+
+
+##OUTPUT
+<img width="1710" height="577" alt="image" src="https://github.com/user-attachments/assets/8c52e5ec-01bb-49d0-a71b-7eda052377c1" />

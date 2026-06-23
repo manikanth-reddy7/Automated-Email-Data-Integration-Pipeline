@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* Global resets and body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a;
+  color: #cbd5e1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif !important;
+  color: #f8fafc !important;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Overriding Ant Design specific components for premium dark aesthetics */
+.ant-layout {
+  background: #0f172a !important;
+}
+
+.ant-layout-header {
+  background: #1e293b !important;
+  border-bottom: 1px solid #334155;
+}
+
+.ant-card {
+  background: #1e293b !important;
+  border: 1px solid #334155 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.ant-card-head {
+  border-bottom: 1px solid #334155 !important;
+}
+
+.ant-card-head-title {
+  color: #f8fafc !important;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Ant Design Table Overrides for dark theme */
+.ant-table {
+  background: transparent !important;
+  color: #cbd5e1 !important;
+}
+
+.ant-table-thead > tr > th {
+  background: #0f172a !important;
+  color: #94a3b8 !important;
+  border-bottom: 1px solid #334155 !important;
+  font-weight: 600;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #334155 !important;
+}
+
+.ant-table-tbody > tr.dark-table-row:hover > td {
+  background: #1e293b !important;
+}
+
+.ant-table-tbody > tr > td {
+  background: transparent !important;
+}
+
+.ant-table-placeholder {
+  background: #1e293b !important;
+  border-bottom: 1px solid #334155 !important;
+}
+
+.ant-empty-description {
+  color: #64748b !important;
+}
+
+/* Ant Design Inputs and Selects styling */
+.ant-input {
+  background-color: #0f172a !important;
+  border: 1px solid #334155 !important;
+  color: #f8fafc !important;
+}
+
+.ant-input::placeholder {
+  color: #475569 !important;
+}
+
+.ant-select-selector {
+  background-color: #0f172a !important;
+  border: 1px solid #334155 !important;
+  color: #f8fafc !important;
+}
+
+.ant-select-arrow {
+  color: #64748b !important;
+}
+
+.ant-select-dropdown {
+  background-color: #1e293b !important;
+  border: 1px solid #334155 !important;
+}
+
+.ant-select-item {
+  color: #cbd5e1 !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+.ant-select-item-option-active {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+/* Pagination Overrides */
+.ant-pagination-item {
+  background: #0f172a !important;
+  border-color: #334155 !important;
+}
+
+.ant-pagination-item a {
+  color: #cbd5e1 !important;
+}
+
+.ant-pagination-item-active {
+  border-color: #38bdf8 !important;
+  background: #0284c7 !important;
+}
+
+.ant-pagination-item-active a {
+  color: #f8fafc !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  background: #0f172a !important;
+  border-color: #334155 !important;
+  color: #cbd5e1 !important;
+}
+
+/* Drawer styles */
+.ant-drawer-content-wrapper {
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+.ant-drawer-header-title {
+  color: #f8fafc !important;
+}
+
+.ant-drawer-close {
+  color: #94a3b8 !important;
+}
+
+.ant-drawer-close:hover {
+  color: #f8fafc !important;
+}
+
+/* Descriptions Bordered overrides */
+.ant-descriptions-bordered .ant-descriptions-item-label {
+  background-color: #1e293b !important;
+  color: #94a3b8 !important;
+  border-right: 1px solid #334155 !important;
+  border-bottom: 1px solid #334155 !important;
+}
+
+.ant-descriptions-bordered .ant-descriptions-item-content {
+  color: #f8fafc !important;
+  border-bottom: 1px solid #334155 !important;
+  background-color: #0f172a !important;
+}
+
+.ant-descriptions-title {
+  color: #38bdf8 !important;
+  font-family: 'Outfit', sans-serif !important;
+}

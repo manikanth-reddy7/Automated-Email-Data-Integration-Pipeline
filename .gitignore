@@ -1,0 +1,32 @@
+# Databases and Staging
+*.db
+*.sqlite3
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Credentials and Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Python Virtual Environments & Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/venv/
+backend/.env
+
+# Frontend Node packages & Bundles
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# OS and IDE configurations
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log

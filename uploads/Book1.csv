@@ -1,0 +1,16 @@
+email_id,sender_email,receiver_email,subject,body,timestamp,status,source
+E101,orders@amazon.in,user@gmail.com,Your order has shipped,Your package will arrive tomorrow,2026-06-23 10:30:00,unread,shopping
+E102,support@zomato.com,user@gmail.com,Issue update,Your issue has been resolved,2026-06-23 12:00:00,read,support
+E103,jobs@linkedin.com,user@gmail.com,New job matches,We found new software engineer roles for you,2026-06-23 13:15:00,unread,jobs
+E104,offers@flipkart.com,user@gmail.com,Special discount,Get 20 percent off on electronics today,2026-06-23 14:00:00,unread,promotions
+E105,alerts@bank.com,user@gmail.com,Transaction alert,INR 5000 debited from your account,2026-06-23 15:20:00,read,banking
+E106,newsletter@medium.com,user@gmail.com,Top stories for today,Read trending technology articles,2026-06-23 16:10:00,unread,newsletter
+E107,team@github.com,user@gmail.com,Security alert,A new login to your GitHub account was detected,2026-06-23 17:05:00,unread,security
+E108,noreply@coursera.org,user@gmail.com,Course reminder,Your assignment deadline is tomorrow,2026-06-23 18:30:00,read,education
+E109,hr@company.com,user@gmail.com,Interview Invitation,You are shortlisted for the Data Engineer interview,2026-06-23 19:00:00,unread,jobs
+E110,billing@netflix.com,user@gmail.com,Payment received,Your subscription payment was successful,2026-06-23 20:15:00,read,billing
+E111,orders@amazon.in,user@gmail.com,Out for delivery,Your order will be delivered today,2026-06-24 09:00:00,unread,shopping
+E112,support@swiggy.com,user@gmail.com,Refund processed,Your refund has been credited to the source account,2026-06-24 09:30:00,read,support
+E113,updates@google.com,user@gmail.com,Account security update,Review the latest activity on your Google account,2026-06-24 10:15:00,unread,security
+E114,events@meetup.com,user@gmail.com,Upcoming event reminder,Your registered tech meetup starts tomorrow,2026-06-24 11:00:00,unread,events
+E115,news@thehindu.com,user@gmail.com,Daily News Brief,Top headlines curated for you today,2026-06-24 12:00:00,read,newsletter
